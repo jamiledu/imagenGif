@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<img  id="cambio" onmouseover="mouseOver()" onmouseout="mouseOut()" width="150" height="150">
+<img  id="cambio1" onmouseover="mouseOver()" onmouseout="mouseOut()" width="150" height="150">
+<img  id="cambio2" onmouseover="mouseOver()" onmouseout="mouseOut()" width="150" height="150">
+<script>
+function mouseOver() {
+    document.getElementById("cambio").src="img1.gif";
+    document.getElementById("cambio1").src="img3.gif";
+    document.getElementById("cambio2").src="img5.gif";
+}
+
+function mouseOut() {
+    document.getElementById("cambio").src="img.gif";
+    document.getElementById("cambio1").src="img2.gif";
+    document.getElementById("cambio2").src="img4.gif";
+}
+</script>
+</body>
+</html>
